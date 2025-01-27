@@ -1,5 +1,5 @@
 Скачивать в директорию /home/user/
-Файл с симулыцией LTE lte_5.cc согласно следующему ТЗ: 
+Файл с симуляцией LTE try_2.cc согласно следующему ТЗ: 
         a. Есть eNB и два абонента.
         b. Траффик Full Buffer (пакеты идут в обе стороны бесконечно).
         c. В LTE модуле сконфигурирован планировщик пакетов pf-ff-mac-scheduler.
@@ -9,8 +9,7 @@
 прописать его исполняемым chmox +x auto_run.sh
 Проследить, чтобы в все файлы были расположены в папках по умолчанию.
 ./auto_run.sh - запуск скрипта 
-Файл try_1.cc покажет логику операций между eNB и UEs
 Скрипт pars_th.py выполнит расчёт пропускной способности на основе статистики из файлой UlRlc, DlRlc. Путь к ним указан по умолчанию, как 
-dl_file_path = '/home/aplelsin/yo_test1/ns-allinone-3.43/ns-3.43/DlRlcStats.txt'
-ul_file_path = '/home/aplelsin/yo_test1/ns-allinone-3.43/ns-3.43/UlRlcStats.txt'
+dl_file_path = '/home/YOUR USER NAME/yo_test1/ns-allinone-3.43/ns-3.43/DlRlcStats.txt'
+ul_file_path = '/home/YOUR USER NAME/yo_test1/ns-allinone-3.43/ns-3.43/UlRlcStats.txt'
 следует заменить на директорию, в которой содержатся файлы статистики
